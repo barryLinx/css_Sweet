@@ -10,7 +10,7 @@ menuBar.addEventListener('click',(evt)=>{
 window.onscroll= ()=>{
   menuBar.classList.remove('fa-times');
   navbar.classList.remove("active");
-  cartWrap.classList.remove('active');
+  //cartWrap.classList.remove('active');
   if(window.scrollY > 160){
     document.querySelector('#scroll-top').classList.add('active')
   }else{
