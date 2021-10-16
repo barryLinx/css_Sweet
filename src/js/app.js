@@ -6,6 +6,16 @@ menuBar.addEventListener('click',(evt)=>{
   navbar.classList.toggle('active');
   cartWrap.classList.remove('active');
 })
+
+const cartWrap = document.querySelector(".cart-wrap");
+const cartBtn = document.querySelector("#cart-btn");
+
+cartBtn.addEventListener('click',(evt)=>{
+  evt.preventDefault();
+  cartWrap.classList.toggle('active');
+  menuBar.classList.remove('fa-times');
+  navbar.classList.remove('active');
+})
 // scroll 
 window.onscroll= ()=>{
   menuBar.classList.remove('fa-times');
@@ -17,13 +27,3 @@ window.onscroll= ()=>{
     document.querySelector('#scroll-top').classList.remove('active')
   }
 }
-
-const cartWrap = document.querySelector(".cart-wrap");
-const cartBtn = document.querySelector("#cart-btn");
-
-cartBtn.addEventListener('click',(evt)=>{
-  evt.preventDefault();
-  cartWrap.classList.toggle('active');
-  menuBar.classList.remove('fa-times');
-  navbar.classList.remove('active');
-})
