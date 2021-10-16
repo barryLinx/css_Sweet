@@ -223,7 +223,7 @@ a {
   height: 50px;
   width: 235px;
   background-size: cover;
-  background: url("../src/images/logo-all-dark.png") no-repeat;
+  background: url("/src/images/logo-all-dark.png") no-repeat;
   background-position: cover;
   display: block;
   /* hideText */
