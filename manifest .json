@@ -1,0 +1,17 @@
+{
+  "name": "PWA Sweet hunter",
+  "short_name": "Sweet hunter",
+  "start_url": "/src/index.html",
+  "lang": "zh-Hant-TW",
+  "icons": [
+    {
+      "src": "/src/images/logo-all-dark@2x.png",
+      "size": "192x192",
+      "type": "image/png"
+    }],
+    "description": "這是切來練習的",
+    "orientation":"landscape",
+    "theme_color":"#8da291",
+    "background_color":"#ffe180",
+    "display": "standalone"
+}

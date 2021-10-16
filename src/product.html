@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>product</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"/>
+
+<!-- swiper css  -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<!-- normalize css -->
+<link rel="stylesheet" href="/src/css/normalize.css">
+<!-- custom css -->
+<link rel="stylesheet" href="/src/css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <h1 class="">
+        <a href="/src/index.html" class="logo"></a>
+      </h1>
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="item">
+            <a href="/src/index.html">首頁</a>
+          </li>
+          <li class="item">
+            <a href="/src/product.html">甜點</a>
+          </li>
+          <li class="item">
+            <a href="/src/signin.html">登入</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" class="cart" id="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+    <div class="cart-wrap">
+      <div class="cart-item">
+        <a href="#" class="fas fa-trash"></a>
+        <img src="https://bit.ly/2QiWeQW" style="width:157px; height: 106px;" alt="">
+        <div class="content">
+          <h3>焦糖馬卡龍</h3>
+          <div class="price">NT$ 450</div>
+          <div class="count">
+            <span>-</span>
+            <span>5</span>
+            <span>+</span>            
+          </div>
+        </div>         
+      </div>
+      <div class="cart-item">
+        <a href="#" class="fas fa-trash"></a>
+        <img src="https://bit.ly/2QbVsVR" style="width:157px; height: 106px;" alt="">
+        <div class="content">
+          <h3>焦糖馬卡龍</h3>
+          <div class="price">NT$ 450</div>
+          <div class="count">
+            <span>-</span>
+            <span>5</span>
+            <span>+</span>            
+          </div>
+        </div>         
+      </div>
+      <div class="cart-item">
+        <a href="#" class="fas fa-trash"></a>
+        <img src="https://bit.ly/2QvsT63" style="width:157px; height: 106px;" alt="">
+        <div class="content">
+          <h3>焦糖馬卡龍</h3>
+          <div class="price">NT$ 450</div>
+          <div class="count">
+            <span>-</span>
+            <span>5</span>
+            <span>+</span>            
+          </div>
+        </div>         
+      </div>
+      <a href="#" class="btn-send">結帳</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="home" id="home">
+      <div class="container">
+        <div class="banner" style="background-image:url(https://bit.ly/2Qodh3Z) ;">
+          <img class="title" src="/src/images/lg-想吃甜點是不需要理由的.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="product">
+      <div class="container">
+        <ul class="category">
+          <li>甜點類別</li>
+          <li><a href="">所有甜點（48）</a></li>
+          <li><a href="">本日精選（10）</a></li>
+          <li><a href="">人氣推薦（26）</a></li>
+          <li><a href="">新品上市（12）</a></li>
+        </ul>
+
+        <div class="card-list">
+          <div class="card">
+            <div class="card-header">
+              <img class="img" src="https://bit.ly/2zBjQuq" alt="">
+            </div>           
+            <div class="content">
+              <span>焦糖馬卡龍</span>
+              <span>NT$ 450</span>
+            </div>
+            <button class="btn">加入購物車</button>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img class="img" src="https://bit.ly/2zKOP7w" alt="">
+            </div>           
+            <div class="content">
+              <span>焦糖馬卡龍</span>
+              <span>NT$ 450</span>
+            </div>
+            <button class="btn">加入購物車</button>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img class="img" src="https://bit.ly/2zBDAxX" alt="">
+            </div>           
+            <div class="content">
+              <span>焦糖馬卡龍</span>
+              <span>NT$ 450</span>
+            </div>
+            <button class="btn">加入購物車</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="title">
+        <div class="img">
+          <span>
+            <img src="/src/images/logo-light.png" alt="">
+          </span>              
+          <span>訂閱你我的甜蜜郵件</span>
+        </div>
+        <div class="mail">
+          <label for="mail-text">
+            <i class="fas fa-envelope"></i>
+          </label>
+          <input id="mail-text" type="text">
+          <button class="mail-btn"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </di>
+    </div>
+    <div class="contact">                
+          
+          <div class="address">
+            <div class="img">
+              <img src="/src/images/logotype-lg-dark.png" alt="">
+            </div>
+            <div class="content">
+              <p>07-1234-5678  </p>
+              <p>sweetaste@email.com </p>
+              <p>800 高雄市新興區幸福路 520 號</p>
+            </div>
+          </div>
+
+          <div class="img-depiction">
+            <img src="/src/images/sm-今天是個吃甜點的好日子.png" alt="">
+          </div>
+      </div>   
+      <div class="community-list">
+        <div class="community">
+          <i class="fas fa-at"></i>
+          <i class="fab fa-facebook-square"></i>      
+        </div>
+        <div class="copy-rights">
+          <p>© 2018 Sweetaste* All Rights Reserved</p>
+        </div>
+      </div>
+      </div>
+    </footer>
+  <a href="#home" class="fas fa-angle-up" id="scroll-top">
+  </a>
+</body>
+ <!-- swiper -->
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ <script src="/src/js/app.js"></script>
+</html>
