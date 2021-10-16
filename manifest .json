@@ -1,7 +1,7 @@
 {
   "name": "PWA Sweet hunter",
   "short_name": "Sweet hunter",
-  "start_url": "/src/index.html",
+  "start_url": "https://barrylinx.github.io/css_Sweet/src/index.html",
   "lang": "zh-Hant-TW",
   "icons": [
     {
