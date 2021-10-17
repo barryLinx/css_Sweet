@@ -712,7 +712,7 @@ footer .container .community-list .copy-rights p {
 
 .product .container nav .pagination .page-item .page-link{
   color: var(--primary);
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   font-size: var(--fs-md);
   border: 1px solid var(--green-000);
   border-right:0 ;
@@ -1004,6 +1004,11 @@ footer .container .community-list .copy-rights p {
     margin-bottom: 2rem;
   }
   .product .container .card-list {
+    justify-content: center;
+  }
+
+  .product .container .page-wrap .pagination{
+    display: flex;
     justify-content: center;
   }
 
