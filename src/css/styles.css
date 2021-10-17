@@ -715,6 +715,7 @@ footer .container .community-list .copy-rights p {
   width: 50%;
   text-align: center;
   vertical-align: end;
+  
 }
 
 .signup .container .form-container .mobile-title{
@@ -976,6 +977,7 @@ footer .container .community-list .copy-rights p {
 
   .signup .container {
     flex-wrap: wrap;
+    padding: 0;
   }
 
   .signup .container .form-container {
@@ -1086,6 +1088,10 @@ footer .container .community-list .copy-rights p {
  
   .signup .container .form-container .mobile-community {
     display: initial;
+  }
+
+  .signup .container .form-container .mobile-community ul li a{
+    padding: 1rem .35rem;
   }
 
  
