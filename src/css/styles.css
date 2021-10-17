@@ -653,7 +653,6 @@ footer .container .community-list .copy-rights p {
 
 .product .container {
   display: flex;
-
   margin-bottom: 2rem;
 }
 
@@ -694,6 +693,41 @@ footer .container .community-list .copy-rights p {
 .product .container .category li a:hover {
   background-color: var(--green-000);
 }
+
+.product .container .page-wrap{
+  display: block;
+  width: 100%;
+}
+
+
+.product .container .page-wrap .pagination{
+  display: flex;
+  justify-content: end;
+}
+
+.product .container nav .pagination .page-item{
+  display: inline-block;
+  
+}
+
+.product .container nav .pagination .page-item .page-link{
+  color: var(--primary);
+  padding: 1rem;
+  font-size: var(--fs-md);
+  border: 1px solid var(--green-000);
+  border-right:0 ;
+}
+.product .container nav .pagination .page-item .page-link:nth-child(-n+1){
+  border-right: 1px solid var(--green-000);
+}
+
+.product .container nav .pagination .page-item .page-link.active{
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+
+
 /* product html End*/
 
 /*   signup html */
