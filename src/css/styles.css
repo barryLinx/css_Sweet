@@ -34,6 +34,11 @@
   transition: all 0.2s linear;
 }
 
+::selection{
+  color:var(--primary);
+  background-color: var(--secondary);
+}
+
 /* base  */
 html {
   /* overflow-x: hidden; */
@@ -175,6 +180,8 @@ a {
 }
 .header .cart-wrap .cart-item img{
   object-fit: cover;
+  height: 106px;
+  width: 137px;
 }
 .header .cart-wrap .cart-item .fa-trash{
   color: var(--primary);
@@ -1241,9 +1248,7 @@ footer .container .community-list .copy-rights p {
     padding: 0 5rem;
   }
 
-  .card-list {
-    gap: 8px;
-  }
+
   footer {
     width: 100%;
   }
